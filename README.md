@@ -31,6 +31,7 @@ model optimized for Recall while keeping accuracy at a considerable amount
 
 ## Project Structure
 
+```
 ├── datasets/
 │   ├── training_dataset.csv
 │   ├── validation_dataset.csv
@@ -42,6 +43,7 @@ model optimized for Recall while keeping accuracy at a considerable amount
 │   └── model_selection.ipynb
 ├── model.pkl
 └── api/              # FastAPI (coming soon)
+```
 
 ## Model Details
 - **Algorithm:** XGBoost (`max_depth=7`, `learning_rate=0.01`, `n_estimators=1000`)
