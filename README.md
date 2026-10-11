@@ -3,6 +3,8 @@
 Predicts whether a bank customer will churn using XGBoost, trained on the Kaggle Banking Customer Churn dataset.
 
 ## Results
+
+```
 | Metric    | Score |
 
 | Accuracy  | 0.805 |
@@ -11,9 +13,13 @@ Predicts whether a bank customer will churn using XGBoost, trained on the Kaggle
 | F1        | 0.606 |
 | ROC-AUC   | 0.784 |
 
+```
+
 model optimized for Recall while keeping accuracy at a considerable amount
 
 ## Features
+
+```
 | Feature           | Description |
 
 | CreditScore       | Customer credit score |
@@ -26,6 +32,8 @@ model optimized for Recall while keeping accuracy at a considerable amount
 | HasCrCard         | Has credit card (0/1) |
 | IsActiveMember    | Active member (0/1) |
 | EstimatedSalary   | Estimated annual salary |
+
+```
 
 11 features after changes
 
